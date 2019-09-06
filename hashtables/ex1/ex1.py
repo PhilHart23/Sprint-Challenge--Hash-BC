@@ -10,11 +10,11 @@ def get_indices_of_item_weights(weights, length, limit):
 
     for i in range(length):
         
-        # weight is the weight at i
+        # weight is the weights at i
         weight = weights[i]
 
 
-        # weight_limit is the limit minus the weight
+        # weight_limit is the limit - weight
 
         weight_limit = limit - weight
 
